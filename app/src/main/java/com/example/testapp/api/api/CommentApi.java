@@ -18,10 +18,10 @@ import retrofit2.http.Query;
 
 public interface CommentApi {
     @POST("stations/{sid}/comments")
-    public Single<Response<Station>> createStation(@Path("sid") String sid, @Body Comment comment);
+    public Single<Response<Comment>> createComment(@Path("sid") String sid, @Body Comment comment);
 
     @GET("stations/{sid}/comments/read")
-    public Single<Response<List<Comment>>> readStations(@Path("sid") String sid, @Query("skip") int skip, @Query("limit") int limit);
+    public Single<Response<List<Comment>>> readComments(@Path("sid") String sid, @Query("skip") int skip, @Query("limit") int limit);
 
     @GET("stations/{sid}/comments/{id}")
     public Single<Response<Comment>> findById(@Path("sid") String sid, @Path("id") String id);

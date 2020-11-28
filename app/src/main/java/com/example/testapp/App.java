@@ -2,6 +2,7 @@ package com.example.testapp;
 
 import android.app.Application;
 import android.content.Context;
+import android.location.LocationManager;
 import android.widget.Toast;
 
 import com.example.testapp.api.services.ElchargeService;
@@ -29,6 +30,10 @@ public class App extends Application {
             Toast.makeText(context, "server not found", Toast.LENGTH_LONG);
             return null;
         }
+    }
+
+    public Object getAppSystemService(String serviceName){
+        return getSystemService(serviceName);
     }
 
 }

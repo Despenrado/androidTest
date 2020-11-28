@@ -577,6 +577,7 @@ attr radioButtonStyle
 attr ratingBarStyle
 attr ratingBarStyleIndicator
 attr ratingBarStyleSmall
+attr recyclerViewStyle
 attr region_heightLessThan
 attr region_heightMoreThan
 attr region_widthLessThan
@@ -1133,6 +1134,7 @@ dimen subtitle_corner_radius
 dimen subtitle_outline_width
 dimen subtitle_shadow_offset
 dimen subtitle_shadow_radius
+dimen text_margin
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -1266,18 +1268,21 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_add
 drawable ic_baseline_add_circle_24
 drawable ic_baseline_beenhere_24
 drawable ic_baseline_check_circle_24
 drawable ic_baseline_info_24
 drawable ic_baseline_place_24
 drawable ic_create
+drawable ic_edit
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_map
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_my_location
 drawable ic_search
 drawable ic_settings
 drawable mtrl_snackbar_background
@@ -1386,14 +1391,18 @@ id blocking
 id bottom
 id bottomNav
 id bounce
-id button
+id buttonCancel
+id buttonCancelEdit
 id buttonCheckOnMap
 id buttonCreateStation
+id buttonGo
 id buttonLogin
 id buttonLoginPage
 id buttonPanel
 id buttonRegister
 id buttonRegisterPage
+id buttonSave
+id buttonSaveEdit
 id cache_measures
 id cancel_action
 id center
@@ -1416,12 +1425,14 @@ id create
 id custom
 id customPanel
 id dark
+id date
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id description
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -1449,6 +1460,7 @@ id editTextPassword
 id editTextPassword2
 id editTextSearch
 id editTextStationName
+id editTextText
 id editTextUserName
 id edit_query
 id end
@@ -1465,8 +1477,10 @@ id filled
 id fixed
 id flip
 id floatingActionButtonAddLocation
-id floatingActionButtonGo
+id floatingActionButtonCreateComment
+id floatingActionButtonEditStation
 id floatingActionButtonInfo
+id floatingActionButtonMyLocation
 id floatingActionButtonPlace
 id forever
 id ghost_view
@@ -1540,8 +1554,11 @@ id postLayout
 id progress_circular
 id progress_horizontal
 id radio
+id rating
+id ratingBar
 id ratio
 id rectangles
+id recyclerViewComments
 id reverseSawtooth
 id right
 id right_icon
@@ -1568,6 +1585,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id seekBarDistance
 id select_dialog_listview
 id selected
 id settings
@@ -1597,6 +1615,8 @@ id startHorizontal
 id startVertical
 id staticLayout
 id staticPostLayout
+id stationId
+id stationName
 id status_bar_latest_event_content
 id stop
 id stretch
@@ -1618,6 +1638,10 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
+id textViewID
+id textViewLat
+id textViewLng
+id textViewRadius
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1643,6 +1667,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id username
 id view_offset_helper
 id visible
 id webview
@@ -1726,13 +1751,17 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
-layout fragment_create
+layout fragment_create_comment
+layout fragment_create_station
+layout fragment_edit_station
+layout fragment_info
 layout fragment_login
 layout fragment_maps
-layout fragment_maps2
+layout fragment_maps_create_station
 layout fragment_register
-layout fragment_search
+layout fragment_search_station
 layout fragment_settings
+layout info_view
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
@@ -1813,6 +1842,7 @@ string fab_transformation_sheet_behavior
 string google_maps_key
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
+string large_text
 string mtrl_chip_close_icon_content_description
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
@@ -2429,7 +2459,7 @@ styleable PopupWindow android_popupBackground android_popupAnimationStyle overla
 styleable PopupWindowBackgroundState state_above_anchor
 styleable PropertySet android_visibility android_alpha layout_constraintTag motionProgress visibilityMode
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
-styleable RecyclerView android_orientation android_descendantFocusability fastScrollEnabled fastScrollHorizontalThumbDrawable fastScrollHorizontalTrackDrawable fastScrollVerticalThumbDrawable fastScrollVerticalTrackDrawable layoutManager reverseLayout spanCount stackFromEnd
+styleable RecyclerView android_orientation android_clipToPadding android_descendantFocusability fastScrollEnabled fastScrollHorizontalThumbDrawable fastScrollHorizontalTrackDrawable fastScrollVerticalThumbDrawable fastScrollVerticalTrackDrawable layoutManager reverseLayout spanCount stackFromEnd
 styleable ScrimInsetsFrameLayout insetForeground
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon

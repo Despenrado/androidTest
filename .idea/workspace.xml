@@ -9,7 +9,178 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78561465-f391-4f29-9486-5cd4a34fe669" name="Default Changelist" comment="" />
+    <list default="true" id="78561465-f391-4f29-9486-5cd4a34fe669" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/fragments/CommentsAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/fragments/CreateCommentFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/fragments/EditStationFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/fragments/InfoFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_add.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_my_location.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_create_comment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_edit_station.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/info_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/21Ap9DXBrrN_2xdghGU2QdV4_Bw=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/21Ap9DXBrrN_2xdghGU2QdV4_Bw=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/3Hia6MWM40xvnMfdMtJQSigoZvo=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/3Hia6MWM40xvnMfdMtJQSigoZvo=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/3_0r5DoJQaOH4B7PuomjlbFidSM=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/3_0r5DoJQaOH4B7PuomjlbFidSM=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/8LcuAEayYBKKQld6goa4wZFmZRQ=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/8LcuAEayYBKKQld6goa4wZFmZRQ=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/9wzdkNcCsbn73VtqjAFqh3pCCdo=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/9wzdkNcCsbn73VtqjAFqh3pCCdo=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/F87WSMErXA8qOhMtvvSumb0M5zA=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/F87WSMErXA8qOhMtvvSumb0M5zA=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/M4+rx19U41QmWKxTmcc+nDZ3YFI=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/M4+rx19U41QmWKxTmcc+nDZ3YFI=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/PK3wmTxO7ndkaUmL3VXbg6OpdYk=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/PK3wmTxO7ndkaUmL3VXbg6OpdYk=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/PU0f+eBgDfygXhyL3FnGEM62S84=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/PU0f+eBgDfygXhyL3FnGEM62S84=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_G1GS90G5s97KKdIZCzo882RrLY=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_G1GS90G5s97KKdIZCzo882RrLY=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/itXShTv1GFlHBGPPP07XyFJd0ig=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/itXShTv1GFlHBGPPP07XyFJd0ig=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/s0tZZ28wl6aGtbTRc39+iEcrAjA=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/s0tZZ28wl6aGtbTRc39+iEcrAjA=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/s5396bsA0ccLfHqHwiMA891beSo=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/s5396bsA0ccLfHqHwiMA891beSo=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/wClsXRHKi_QW6O4rBcNYMjlTXGg=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/wClsXRHKi_QW6O4rBcNYMjlTXGg=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/yA1LSd5hWbRATrTLb+72tXrc93A=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/yA1LSd5hWbRATrTLb+72tXrc93A=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/yHtHjncVkULCnX+LKKw80lYbzJE=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/yHtHjncVkULCnX+LKKw80lYbzJE=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/yoE9K+NjcjOSKohm8dyK5AfK1Nw=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/yoE9K+NjcjOSKohm8dyK5AfK1Nw=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ziTGTNW48sYBcAlrr6Y0qK6ecOc=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ziTGTNW48sYBcAlrr6Y0qK6ecOc=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/21Ap9DXBrrN_2xdghGU2QdV4_Bw=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/21Ap9DXBrrN_2xdghGU2QdV4_Bw=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/3Hia6MWM40xvnMfdMtJQSigoZvo=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/3Hia6MWM40xvnMfdMtJQSigoZvo=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/3_0r5DoJQaOH4B7PuomjlbFidSM=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/3_0r5DoJQaOH4B7PuomjlbFidSM=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/8LcuAEayYBKKQld6goa4wZFmZRQ=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/8LcuAEayYBKKQld6goa4wZFmZRQ=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/9wzdkNcCsbn73VtqjAFqh3pCCdo=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/9wzdkNcCsbn73VtqjAFqh3pCCdo=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/F87WSMErXA8qOhMtvvSumb0M5zA=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/F87WSMErXA8qOhMtvvSumb0M5zA=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/M4+rx19U41QmWKxTmcc+nDZ3YFI=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/M4+rx19U41QmWKxTmcc+nDZ3YFI=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/PK3wmTxO7ndkaUmL3VXbg6OpdYk=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/PK3wmTxO7ndkaUmL3VXbg6OpdYk=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/PU0f+eBgDfygXhyL3FnGEM62S84=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/PU0f+eBgDfygXhyL3FnGEM62S84=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/_G1GS90G5s97KKdIZCzo882RrLY=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/_G1GS90G5s97KKdIZCzo882RrLY=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/itXShTv1GFlHBGPPP07XyFJd0ig=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/itXShTv1GFlHBGPPP07XyFJd0ig=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/s0tZZ28wl6aGtbTRc39+iEcrAjA=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/s0tZZ28wl6aGtbTRc39+iEcrAjA=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/s5396bsA0ccLfHqHwiMA891beSo=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/s5396bsA0ccLfHqHwiMA891beSo=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/wClsXRHKi_QW6O4rBcNYMjlTXGg=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/wClsXRHKi_QW6O4rBcNYMjlTXGg=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/yA1LSd5hWbRATrTLb+72tXrc93A=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/yA1LSd5hWbRATrTLb+72tXrc93A=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/yHtHjncVkULCnX+LKKw80lYbzJE=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/yHtHjncVkULCnX+LKKw80lYbzJE=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/yoE9K+NjcjOSKohm8dyK5AfK1Nw=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/yoE9K+NjcjOSKohm8dyK5AfK1Nw=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/ziTGTNW48sYBcAlrr6Y0qK6ecOc=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/ziTGTNW48sYBcAlrr6Y0qK6ecOc=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/Helper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/activities/MainActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/activities/MainActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/activities/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/activities/MainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/api/api/StationApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/api/api/StationApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/api/models/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/api/models/Comment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/api/models/Station.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/api/models/Station.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/api/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/api/models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/api/services/ElchargeService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/api/services/ElchargeService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/api/services/ElchargeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/api/services/ElchargeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/api/services/UserService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/api/services/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/fragments/CreateFragment$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/fragments/CreateFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/fragments/LoginFragment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/fragments/LoginFragment$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/fragments/LoginFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/fragments/LoginFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/fragments/MapsFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/fragments/MapsFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/fragments/MapsFragment2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/fragments/RegisterFragment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/fragments/RegisterFragment$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/fragments/RegisterFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/fragments/RegisterFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/fragments/SearchFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/fragments/SettingsFragment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/fragments/SettingsFragment$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/fragments/SettingsFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/testapp/fragments/SettingsFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/c621796c6bf451c7964b6cb7b87446f53f4806b40f4b9957d69920b2d008fb47_0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/c621796c6bf451c7964b6cb7b87446f53f4806b40f4b9957d69920b2d008fb47_1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/c621796c6bf451c7964b6cb7b87446f53f4806b40f4b9957d69920b2d008fb47_2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/c621796c6bf451c7964b6cb7b87446f53f4806b40f4b9957d69920b2d008fb47_3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/App.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/App.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/Helper.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/Helper.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/activities/MainActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/activities/MainActivity$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/activities/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/activities/MainActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/api/api/StationApi.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/api/api/StationApi.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/api/models/Comment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/api/models/Comment.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/api/models/Station.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/api/models/Station.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/api/models/User.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/api/models/User.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/api/services/ElchargeService$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/api/services/ElchargeService$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/api/services/ElchargeService.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/api/services/ElchargeService.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/api/services/UserService$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/api/services/UserService.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/fragments/CreateFragment$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/fragments/CreateFragment.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/fragments/LoginFragment$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/fragments/LoginFragment$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/fragments/LoginFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/fragments/LoginFragment.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/fragments/MapsFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/fragments/MapsFragment.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/fragments/MapsFragment2.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/fragments/RegisterFragment$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/fragments/RegisterFragment$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/fragments/RegisterFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/fragments/RegisterFragment.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/fragments/SearchFragment.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/fragments/SettingsFragment$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/fragments/SettingsFragment$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/fragments/SettingsFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/testapp/fragments/SettingsFragment.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_fragment_create.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_fragment_login.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_fragment_login.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_fragment_maps.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_fragment_maps.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_fragment_maps2.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_fragment_register.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_fragment_register.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_fragment_search.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/activities/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/api/api/CommentApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/api/api/CommentApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/api/api/StationApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/api/api/StationApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/api/models/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/api/models/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/api/models/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/api/models/Station.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/api/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/api/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/api/services/ElchargeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/api/services/ElchargeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/api/services/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/fragments/CreateStationFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/fragments/CreateStationFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/fragments/LoginFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/fragments/LoginFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/fragments/MapsCreateStationFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/fragments/MapsSelectFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/fragments/MapsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/fragments/MapsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/fragments/RegisterFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/fragments/RegisterFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/fragments/SearchStationFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/fragments/SearchStationFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/fragments/SettingsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/testapp/fragments/SettingsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_maps.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_maps.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_maps_create_station.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_maps_create_station.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_search_station.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_search_station.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,13 +208,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="resourceFile" />
-        <option value="Class" />
         <option value="valueResourceFile" />
         <option value="Interface" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1k5z5iTaHy9LNwvY6UKzxKJiyDD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -53,6 +229,7 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3a_API_30_x86" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-11-13T15:46:35.750Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
     <property name="memory.settings.postsync.last.time.stamp" value="1605817996328" />
@@ -85,11 +262,14 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
     </key>
+    <key name="android.template.-834940704">
+      <recent name="com.example.testapp.fragments" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.testapp.fragments" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -148,6 +328,30 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestApp [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.TestApp [dependencies]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -169,12 +373,16 @@
     <state x="2720" y="464" key="#PSD/1920.0.2560.1440/0.24.1920.1056@1920.0.2560.1440" timestamp="1605282306132" />
     <state x="2240" y="457" key="#PSD/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1605991447399" />
     <state x="2959" y="571" key="#PSD/1920.0.2560.1440/0.38.1920.1042@1920.0.2560.1440" timestamp="1605890179488" />
-    <state x="3008" y="448" key="#com.intellij.ide.util.MemberChooser" timestamp="1606096214403">
+    <state x="3008" y="448" width="382" height="561" key="#com.intellij.ide.util.MemberChooser" timestamp="1606566241826">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="3008" y="448" key="#com.intellij.ide.util.MemberChooser/1920.0.2560.1440/0.24.1920.1056@1920.0.2560.1440" timestamp="1605310815565" />
-    <state x="3008" y="448" key="#com.intellij.ide.util.MemberChooser/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1606096214403" />
+    <state x="3008" y="448" width="382" height="561" key="#com.intellij.ide.util.MemberChooser/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1606566241826" />
     <state x="3008" y="448" key="#com.intellij.ide.util.MemberChooser/1920.0.2560.1440/0.38.1920.1042@1920.0.2560.1440" timestamp="1605909459618" />
+    <state x="1941" y="123" width="943" height="1135" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606397604805">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1941" y="123" width="943" height="1135" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1606397604805" />
     <state x="2933" y="478" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605904308037">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
@@ -185,62 +393,62 @@
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="2783" y="487" key="AndroidCreateResourceDirectoryDialog/1920.0.2560.1440/0.24.1920.1056@1920.0.2560.1440" timestamp="1605225840136" />
-    <state x="2784" y="496" key="AndroidCreateResourceFileDialog" timestamp="1605992625981">
+    <state x="2784" y="496" width="832" height="483" key="AndroidCreateResourceFileDialog" timestamp="1606327732282">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state x="2784" y="496" key="AndroidCreateResourceFileDialog/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1605992625981" />
+    <state x="2784" y="496" width="832" height="483" key="AndroidCreateResourceFileDialog/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1606327732282" />
     <state x="2784" y="496" key="AndroidCreateResourceFileDialog/1920.0.2560.1440/0.38.1920.1042@1920.0.2560.1440" timestamp="1605905252945" />
     <state x="3222" y="594" key="FileChooserDialogImpl" timestamp="1605833631108">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="3222" y="594" key="FileChooserDialogImpl/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1605833631108" />
-    <state width="2514" height="391" key="GridCell.Tab.0.bottom" timestamp="1606052269973">
+    <state width="2514" height="345" key="GridCell.Tab.0.bottom" timestamp="1606567695401">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state width="1257" height="396" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.24.1920.1056@1920.0.2560.1440" timestamp="1605394937726" />
-    <state width="2514" height="391" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1606052269973" />
+    <state width="2514" height="345" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1606567695401" />
     <state width="1492" height="392" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.38.1920.1042@1920.0.2560.1440" timestamp="1605906403812" />
-    <state width="2514" height="391" key="GridCell.Tab.0.center" timestamp="1606052269973">
+    <state width="2514" height="345" key="GridCell.Tab.0.center" timestamp="1606567695401">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state width="1257" height="396" key="GridCell.Tab.0.center/1920.0.2560.1440/0.24.1920.1056@1920.0.2560.1440" timestamp="1605394937726" />
-    <state width="2514" height="391" key="GridCell.Tab.0.center/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1606052269973" />
+    <state width="2514" height="345" key="GridCell.Tab.0.center/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1606567695401" />
     <state width="1492" height="392" key="GridCell.Tab.0.center/1920.0.2560.1440/0.38.1920.1042@1920.0.2560.1440" timestamp="1605906403811" />
-    <state width="2514" height="391" key="GridCell.Tab.0.left" timestamp="1606052269973">
+    <state width="2514" height="345" key="GridCell.Tab.0.left" timestamp="1606567695401">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state width="1257" height="396" key="GridCell.Tab.0.left/1920.0.2560.1440/0.24.1920.1056@1920.0.2560.1440" timestamp="1605394937726" />
-    <state width="2514" height="391" key="GridCell.Tab.0.left/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1606052269973" />
+    <state width="2514" height="345" key="GridCell.Tab.0.left/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1606567695401" />
     <state width="1492" height="392" key="GridCell.Tab.0.left/1920.0.2560.1440/0.38.1920.1042@1920.0.2560.1440" timestamp="1605906403811" />
-    <state width="2514" height="391" key="GridCell.Tab.0.right" timestamp="1606052269973">
+    <state width="2514" height="345" key="GridCell.Tab.0.right" timestamp="1606567695401">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state width="1257" height="396" key="GridCell.Tab.0.right/1920.0.2560.1440/0.24.1920.1056@1920.0.2560.1440" timestamp="1605394937726" />
-    <state width="2514" height="391" key="GridCell.Tab.0.right/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1606052269973" />
+    <state width="2514" height="345" key="GridCell.Tab.0.right/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1606567695401" />
     <state width="1492" height="392" key="GridCell.Tab.0.right/1920.0.2560.1440/0.38.1920.1042@1920.0.2560.1440" timestamp="1605906403811" />
-    <state width="2514" height="335" key="GridCell.Tab.1.bottom" timestamp="1605976807488">
+    <state width="2514" height="335" key="GridCell.Tab.1.bottom" timestamp="1606411905463">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state width="1257" height="486" key="GridCell.Tab.1.bottom/1920.0.2560.1440/0.24.1920.1056@1920.0.2560.1440" timestamp="1605394787774" />
-    <state width="2514" height="335" key="GridCell.Tab.1.bottom/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1605976807488" />
+    <state width="2514" height="335" key="GridCell.Tab.1.bottom/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1606411905463" />
     <state width="1492" height="332" key="GridCell.Tab.1.bottom/1920.0.2560.1440/0.38.1920.1042@1920.0.2560.1440" timestamp="1605893574089" />
-    <state width="2514" height="335" key="GridCell.Tab.1.center" timestamp="1605976807488">
+    <state width="2514" height="335" key="GridCell.Tab.1.center" timestamp="1606411905463">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state width="1257" height="486" key="GridCell.Tab.1.center/1920.0.2560.1440/0.24.1920.1056@1920.0.2560.1440" timestamp="1605394787774" />
-    <state width="2514" height="335" key="GridCell.Tab.1.center/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1605976807488" />
+    <state width="2514" height="335" key="GridCell.Tab.1.center/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1606411905463" />
     <state width="1492" height="332" key="GridCell.Tab.1.center/1920.0.2560.1440/0.38.1920.1042@1920.0.2560.1440" timestamp="1605893574088" />
-    <state width="2514" height="335" key="GridCell.Tab.1.left" timestamp="1605976807488">
+    <state width="2514" height="335" key="GridCell.Tab.1.left" timestamp="1606411905463">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state width="1257" height="486" key="GridCell.Tab.1.left/1920.0.2560.1440/0.24.1920.1056@1920.0.2560.1440" timestamp="1605394787773" />
-    <state width="2514" height="335" key="GridCell.Tab.1.left/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1605976807488" />
+    <state width="2514" height="335" key="GridCell.Tab.1.left/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1606411905463" />
     <state width="1492" height="332" key="GridCell.Tab.1.left/1920.0.2560.1440/0.38.1920.1042@1920.0.2560.1440" timestamp="1605893574088" />
-    <state width="2514" height="335" key="GridCell.Tab.1.right" timestamp="1605976807488">
+    <state width="2514" height="335" key="GridCell.Tab.1.right" timestamp="1606411905463">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state width="1257" height="486" key="GridCell.Tab.1.right/1920.0.2560.1440/0.24.1920.1056@1920.0.2560.1440" timestamp="1605394787774" />
-    <state width="2514" height="335" key="GridCell.Tab.1.right/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1605976807488" />
+    <state width="2514" height="335" key="GridCell.Tab.1.right/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1606411905463" />
     <state width="1492" height="332" key="GridCell.Tab.1.right/1920.0.2560.1440/0.38.1920.1042@1920.0.2560.1440" timestamp="1605893574088" />
     <state x="2696" y="364" key="SettingsEditor" timestamp="1605818623314">
       <screen x="1920" y="0" width="2560" height="1440" />
@@ -267,11 +475,15 @@
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="2324" y="461" key="psd.add.library.dependency.panel.dimension/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1605991445220" />
-    <state x="2859" y="342" key="run.anything.popup" timestamp="1606005780688">
+    <state x="2859" y="342" key="run.anything.popup" timestamp="1606565984540">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="2859" y="342" key="run.anything.popup/1920.0.2560.1440/0.24.1920.1056@1920.0.2560.1440" timestamp="1605274849066" />
-    <state x="2859" y="342" key="run.anything.popup/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1606005780688" />
+    <state x="2859" y="342" key="run.anything.popup/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1606565984540" />
     <state x="2859" y="342" key="run.anything.popup/1920.0.2560.1440/0.38.1920.1042@1920.0.2560.1440" timestamp="1605907111581" />
+    <state x="2863" y="353" width="672" height="678" key="search.everywhere.popup" timestamp="1606332034992">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2863" y="353" width="672" height="678" key="search.everywhere.popup/1920.0.2560.1440/0.30.1920.1050@1920.0.2560.1440" timestamp="1606332034992" />
   </component>
 </project>

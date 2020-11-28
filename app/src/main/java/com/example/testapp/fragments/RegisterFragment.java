@@ -28,8 +28,8 @@ import retrofit2.Response;
 
 public class RegisterFragment extends Fragment {
 
-    CompositeDisposable disposable = new CompositeDisposable();
-    App app;
+    private CompositeDisposable disposable = new CompositeDisposable();
+    private App app;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -40,12 +40,12 @@ public class RegisterFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View inflate = inflater.inflate(R.layout.fragment_register, container, false);
-        Button btnRegister = (Button) inflate.findViewById(R.id.buttonRegister);
+        View view = inflater.inflate(R.layout.fragment_register, container, false);
+        Button btnRegister = (Button) view.findViewById(R.id.buttonRegister);
         btnRegister.setOnClickListener(this::onButtonRegisterClick);
-        Button btnLogin = (Button) inflate.findViewById(R.id.buttonLoginPage);
+        Button btnLogin = (Button) view.findViewById(R.id.buttonLoginPage);
         btnLogin.setOnClickListener(this::onButtonLoginPageClick);
-        return inflate;
+        return view;
     }
 
     public void onButtonRegisterClick(View v) {
@@ -66,11 +66,13 @@ public class RegisterFragment extends Fragment {
 
 
     public void onButtonLoginPageClick(View v) {
-        getFragmentManager().beginTransaction().replace(R.id.container, new LoginFragment()).commit();
+        getFragmentManager().beginTransaction().add(R.id.container, new LoginFragment()).commit();
+        getFragmentManager().beginTransaction().remove(this).commit();
     }
 
     // send request to backend: register and get jwt token
     private void register(User user) {
+        final RegisterFragment tmpcls = this;
         disposable.add(app.getElchargeService().getUserApi().createUser(user)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
@@ -84,9 +86,9 @@ public class RegisterFragment extends Fragment {
                                 app.getElchargeService().setToken(token);
                                 app.getElchargeService().setUser(tmp);
                                 Helper.messageLogger(App.getAppContext(), Helper.LogType.INFO, "register", "account created successfully\n\nLOGGED IN");
-                                getFragmentManager().beginTransaction().replace(R.id.container, new MapsFragment()).commit();
+                                getFragmentManager().beginTransaction().remove(tmpcls).commit();
                             }else{
-                                Helper.messageLogger(App.getAppContext(), Helper.LogType.INFO, "register", Integer.toString(response.code()));
+                                Helper.messageLogger(App.getAppContext(), Helper.LogType.INFO, "register", response.message());
                             }
 
                         } catch (Exception e) {

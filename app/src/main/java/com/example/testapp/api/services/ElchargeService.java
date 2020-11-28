@@ -7,6 +7,7 @@ import android.widget.Toast;
 import com.example.testapp.App;
 import com.example.testapp.Helper;
 import com.example.testapp.R;
+import com.example.testapp.api.api.CommentApi;
 import com.example.testapp.api.api.StationApi;
 import com.example.testapp.api.api.UserApi;
 import com.example.testapp.api.models.User;
@@ -32,6 +33,7 @@ public class ElchargeService {
     String token;
     UserApi userApi;
     StationApi stationApi;
+    CommentApi commentApi;
     User user;
 
     public ElchargeService(){
@@ -40,6 +42,7 @@ public class ElchargeService {
         Retrofit retrofit = createRetrofit();
         userApi = retrofit.create(UserApi.class);
         stationApi = retrofit.create(StationApi.class);
+        commentApi = retrofit.create(CommentApi.class);
     }
 
     private OkHttpClient createOkHttpClient() {
@@ -99,6 +102,14 @@ public class ElchargeService {
     public void setToken(String token) {
         Helper.setConfigValue(App.getAppContext(),"apiserver_token", token);
         this.token = token;
+    }
+
+    public CommentApi getCommentApi() {
+        return commentApi;
+    }
+
+    public void setCommentApi(CommentApi commentApi) {
+        this.commentApi = commentApi;
     }
 
     public StationApi getStationApi() {

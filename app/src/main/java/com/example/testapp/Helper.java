@@ -12,7 +12,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Properties;
+import java.util.TimeZone;
 
 public final class Helper {
     private static final String TAG = "Helper";
@@ -70,4 +74,18 @@ public final class Helper {
         toast.setGravity(Gravity.TOP, 0, 0);
         toast.show();
     }
+
+    public static String getDateFromISO8601(String date){
+        String outputDate;
+        try {
+            SimpleDateFormat simpledateformat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssXXX");
+            Date tempDate = simpledateformat.parse(date);
+            outputDate = tempDate.toString();
+        }catch (ParseException ex)
+        {
+            outputDate = "NoN";
+        }
+        return outputDate;
+    }
+
 }

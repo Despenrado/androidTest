@@ -2,38 +2,42 @@ package com.example.testapp.api.models;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Date;
 
 public class Station {
     @SerializedName("_id")
-    String id;
+    private String id;
+    @SerializedName("owner_id")
+    private String ownerID;
     @SerializedName("description")
     private String description;
     @SerializedName("station_name")
     private String stationName;
-    @SerializedName("position_x")
-    private double positionX;
-    @SerializedName("position_y")
-    private double positionY;
+    @SerializedName("latitude")
+    private double latitude;
+    @SerializedName("longitude")
+    private double longitude;
     @SerializedName("update_at")
-    private Date updateAt;
+    private String updateAt;
     @SerializedName("raiting")
-    private float raiting;
+    private float rating;
     @SerializedName("comments")
     private ArrayList<Comment> comments;
 
     public Station() {
     }
 
-    public Station(String id, String description, String stationName, double positionX, double positionY, Date updateAt, float raiting, ArrayList<Comment> comments) {
+    public Station(String id, String ownerID, String description, String stationName, double latitude, double longitude, String updateAt, float rating, ArrayList<Comment> comments) {
         this.id = id;
+        this.ownerID = ownerID;
         this.description = description;
         this.stationName = stationName;
-        this.positionX = positionX;
-        this.positionY = positionY;
+        this.latitude = latitude;
+        this.longitude = longitude;
         this.updateAt = updateAt;
-        this.raiting = raiting;
+        this.rating = rating;
         this.comments = comments;
     }
 
@@ -45,12 +49,12 @@ public class Station {
         this.id = id;
     }
 
-    public float getRaiting() {
-        return raiting;
+    public float getRating() {
+        return rating;
     }
 
-    public void setRaiting(float raiting) {
-        this.raiting = raiting;
+    public void setRating(float rating) {
+        this.rating = rating;
     }
 
     public ArrayList<Comment> getComments() {
@@ -77,27 +81,35 @@ public class Station {
         this.stationName = stationName;
     }
 
-    public double getPositionX() {
-        return positionX;
-    }
-
-    public void setPositionX(double positionX) {
-        this.positionX = positionX;
-    }
-
-    public double getPositionY() {
-        return positionY;
-    }
-
-    public void setPositionY(double positionY) {
-        this.positionY = positionY;
-    }
-
-    public Date getUpdateAt() {
+    public String getUpdateAt() {
         return updateAt;
     }
 
-    public void setUpdateAt(Date updateAt) {
+    public double getLatitude() {
+        return latitude;
+    }
+
+    public void setLatitude(double latitude) {
+        this.latitude = latitude;
+    }
+
+    public double getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(double longitude) {
+        this.longitude = longitude;
+    }
+
+    public void setUpdateAt(String updateAt) {
         this.updateAt = updateAt;
+    }
+
+    public String getOwnerID() {
+        return ownerID;
+    }
+
+    public void setOwnerID(String ownerID) {
+        this.ownerID = ownerID;
     }
 }

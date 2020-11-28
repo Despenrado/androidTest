@@ -2,6 +2,9 @@ package com.example.testapp.api.models;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.time.LocalDateTime;
+import java.util.Date;
+
 public class Comment {
     @SerializedName("_id")
     private String id;
@@ -11,8 +14,8 @@ public class Comment {
     private String userName;
     @SerializedName("text")
     private String text;
-    @SerializedName("raiting")
-    private float raiting;
+    @SerializedName("rating")
+    private float rating;
     @SerializedName("create_at")
     private String createAt;
     @SerializedName("update_at")
@@ -26,7 +29,7 @@ public class Comment {
         this.userID = userID;
         this.userName = userName;
         this.text = text;
-        this.raiting = raiting;
+        this.rating = raiting;
         this.createAt = createAt;
         this.updateAt = updateAt;
     }
@@ -63,12 +66,12 @@ public class Comment {
         this.text = text;
     }
 
-    public float getRaiting() {
-        return raiting;
+    public float getRating() {
+        return rating;
     }
 
-    public void setRaiting(float raiting) {
-        this.raiting = raiting;
+    public void setRating(float rating) {
+        this.rating = rating;
     }
 
     public String getCreateAt() {

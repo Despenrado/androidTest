@@ -17,16 +17,12 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
-    //CompositeDisposable disposable = new CompositeDisposable();
-    App app;
     private BottomNavigationView bottomNavigationView;
-    private MapsFragment mapsFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        app = (App) getApplication();
         bottomNavigationView = findViewById(R.id.bottomNav);
         bottomNavigationView.setOnNavigationItemSelectedListener(bottomNavMethod);
         getSupportFragmentManager().beginTransaction().replace(R.id.container, new MapsFragment()).commit();
@@ -37,21 +33,38 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                     Fragment fragment = null;
+                    String tag = "";
                     switch (menuItem.getItemId()) {
                         case R.id.map:
-                            fragment = new MapsFragment();
+                            tag = "main_maps";
+                            fragment = getSupportFragmentManager().findFragmentByTag(tag);
+                            if (fragment == null) {
+                                fragment = new MapsFragment();
+                            }
                             break;
                         case R.id.search:
-                            fragment = new SearchStationFragment();
+                            tag = "search_station";
+                            fragment = getSupportFragmentManager().findFragmentByTag(tag);
+                            if (fragment == null) {
+                                fragment = new SearchStationFragment();
+                            }
                             break;
                         case R.id.create:
-                            fragment = new CreateStationFragment();
+                            tag = "create_station";
+                            fragment = getSupportFragmentManager().findFragmentByTag(tag);
+                            if (fragment == null) {
+                                fragment = new CreateStationFragment();
+                            }
                             break;
                         case R.id.settings:
-                            fragment = new SettingsFragment();
+                            tag = "settings";
+                            fragment = getSupportFragmentManager().findFragmentByTag(tag);
+                            if (fragment == null) {
+                                fragment = new SettingsFragment();
+                            }
                             break;
                     }
-                    getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment).commit();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment, tag).commit();
                     return false;
                 }
             };

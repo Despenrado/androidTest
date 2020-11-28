@@ -2,29 +2,32 @@ com/example/testapp/api/models/RouteResponse.java
  com.example.testapp.api.models.RouteResponse
  com.example.testapp.api.models.RouteResponse$OverviewPolyline
  com.example.testapp.api.models.RouteResponse$Route
-com/example/testapp/fragments/MapsFragment2.java
- com.example.testapp.fragments.MapsFragment2
 com/example/testapp/BuildConfig.java
  com.example.testapp.BuildConfig
-com/example/testapp/api/api/UserApi.java
- com.example.testapp.api.api.UserApi
 com/example/testapp/api/api/MapsApi.java
  com.example.testapp.api.api.MapsApi
+com/example/testapp/fragments/EditStationFragment.java
+ com.example.testapp.fragments.EditStationFragment
+ com.example.testapp.fragments.EditStationFragment$1
+com/example/testapp/fragments/CommentsAdapter.java
+ com.example.testapp.fragments.CommentsAdapter
+ com.example.testapp.fragments.CommentsAdapter$CommentViewHolder
 com/example/testapp/fragments/SettingsFragment.java
  com.example.testapp.fragments.SettingsFragment
  com.example.testapp.fragments.SettingsFragment$1
 com/example/testapp/fragments/MapsFragment.java
  com.example.testapp.fragments.MapsFragment
+ com.example.testapp.fragments.MapsFragment$1
+ com.example.testapp.fragments.MapsFragment$2
+com/example/testapp/fragments/InfoFragment.java
+ com.example.testapp.fragments.InfoFragment
+ com.example.testapp.fragments.InfoFragment$1
+ com.example.testapp.fragments.InfoFragment$StationDisposableSingleObserver
 com/example/testapp/fragments/LoginFragment.java
  com.example.testapp.fragments.LoginFragment
  com.example.testapp.fragments.LoginFragment$1
-com/example/testapp/api/services/UserService.java
- com.example.testapp.api.services.UserService
- com.example.testapp.api.services.UserService$1
 com/example/testapp/App.java
  com.example.testapp.App
-com/example/testapp/fragments/SearchFragment.java
- com.example.testapp.fragments.SearchFragment
 com/example/testapp/fragments/RegisterFragment.java
  com.example.testapp.fragments.RegisterFragment
  com.example.testapp.fragments.RegisterFragment$1
@@ -35,18 +38,35 @@ com/example/testapp/api/api/StationApi.java
  com.example.testapp.api.api.StationApi
 com/example/testapp/api/models/Station.java
  com.example.testapp.api.models.Station
-com/example/testapp/api/services/ElchargeService.java
- com.example.testapp.api.services.ElchargeService
- com.example.testapp.api.services.ElchargeService$1
-com/example/testapp/api/models/User.java
- com.example.testapp.api.models.User
 com/example/testapp/api/models/Comment.java
  com.example.testapp.api.models.Comment
 com/example/testapp/Helper.java
  com.example.testapp.Helper
+ com.example.testapp.Helper$1
+ com.example.testapp.Helper$LogType
+com/example/testapp/fragments/CreateCommentFragment.java
+ com.example.testapp.fragments.CreateCommentFragment
+ com.example.testapp.fragments.CreateCommentFragment$1
+com/example/testapp/api/services/ElchargeService.java
+ com.example.testapp.api.services.ElchargeService
+ com.example.testapp.api.services.ElchargeService$1
+com/example/testapp/api/api/CommentApi.java
+ com.example.testapp.api.api.CommentApi
+com/example/testapp/api/api/UserApi.java
+ com.example.testapp.api.api.UserApi
+com/example/testapp/api/models/User.java
+ com.example.testapp.api.models.User
+com/example/testapp/fragments/CreateStationFragment.java
+ com.example.testapp.fragments.CreateStationFragment
+ com.example.testapp.fragments.CreateStationFragment$1
 com/example/testapp/activities/MainActivity.java
  com.example.testapp.activities.MainActivity
  com.example.testapp.activities.MainActivity$1
-com/example/testapp/fragments/CreateFragment.java
- com.example.testapp.fragments.CreateFragment
- com.example.testapp.fragments.CreateFragment$1
+com/example/testapp/fragments/SearchStationFragment.java
+ com.example.testapp.fragments.SearchStationFragment
+ com.example.testapp.fragments.SearchStationFragment$1
+ com.example.testapp.fragments.SearchStationFragment$2
+ com.example.testapp.fragments.SearchStationFragment$StationDisposableSingleObserver
+com/example/testapp/fragments/MapsSelectFragment.java
+ com.example.testapp.fragments.MapsSelectFragment
+ com.example.testapp.fragments.MapsSelectFragment$1

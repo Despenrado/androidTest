@@ -27,8 +27,8 @@ import retrofit2.Response;
 
 public class LoginFragment extends Fragment {
 
-    CompositeDisposable disposable;
-    App app;
+    private CompositeDisposable disposable;
+    private App app;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -40,12 +40,12 @@ public class LoginFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View inflate = inflater.inflate(R.layout.fragment_login, container, false);
-        Button btnLogin = (Button) inflate.findViewById(R.id.buttonLogin);
+        View view = inflater.inflate(R.layout.fragment_login, container, false);
+        Button btnLogin = (Button) view.findViewById(R.id.buttonLogin);
         btnLogin.setOnClickListener(this::onButtonLoginClick);
-        Button btnRegister = (Button) inflate.findViewById(R.id.buttonRegisterPage);
+        Button btnRegister = (Button) view.findViewById(R.id.buttonRegisterPage);
         btnRegister.setOnClickListener(this::onButtonRegisterPageClick);
-        return inflate;
+        return view;
     }
 
     public void onButtonLoginClick(View v) {
@@ -63,11 +63,13 @@ public class LoginFragment extends Fragment {
 
 
     public void onButtonRegisterPageClick(View v) {
-        getFragmentManager().beginTransaction().replace(R.id.container, new RegisterFragment()).commit();
+        getFragmentManager().beginTransaction().add(R.id.container, new RegisterFragment()).commit();
+        getFragmentManager().beginTransaction().remove(this).commit();
     }
 
     // send request to backend: login and get jwt token
     private void login(User user) {
+        final LoginFragment tmpcls = this;
         disposable.add(app.getElchargeService().getUserApi().login(user)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
@@ -81,9 +83,9 @@ public class LoginFragment extends Fragment {
                                 app.getElchargeService().setToken(token);
                                 app.getElchargeService().setUser(tmp);
                                 Helper.messageLogger(App.getAppContext(), Helper.LogType.INFO, "login", "LOGGED IN");
-                                getFragmentManager().beginTransaction().replace(R.id.container, new MapsFragment()).commit();
+                                getFragmentManager().beginTransaction().remove(tmpcls).commit();
                             } else {
-                                Helper.messageLogger(App.getAppContext(), Helper.LogType.INFO, "login", Integer.toString(response.code()));
+                                Helper.messageLogger(App.getAppContext(), Helper.LogType.INFO, "login", response.message());
                             }
 
                         } catch (Exception e) {

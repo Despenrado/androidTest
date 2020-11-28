@@ -2,25 +2,27 @@ package com.example.testapp.api.models;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 
 public class User {
     @SerializedName("_id")
-    String id;
+    private String id;
     @SerializedName("user_name")
-    String userName;
+    private String userName;
     @SerializedName("email")
-    String email;
+    private String email;
     @SerializedName("password")
-    String password;
+    private String password;
     @SerializedName("update_at")
-    Date updateAt;
+    private String updateAt;
 
     public User() {
     }
 
-    public User(String id, String userName, String email, String password, Date updateAt) {
+    public User(String id, String userName, String email, String password, String updateAt) {
         this.id = id;
         this.userName = userName;
         this.email = email;
@@ -60,11 +62,11 @@ public class User {
         this.password = password;
     }
 
-    public Date getUpdateAt() {
+    public String getUpdateAt() {
         return updateAt;
     }
 
-    public void setUpdateAt(Date updateAt) {
+    public void setUpdateAt(String updateAt) {
         this.updateAt = updateAt;
     }
 }

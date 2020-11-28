@@ -4,14 +4,11 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
-import android.util.Log;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import com.example.testapp.App;
 import com.example.testapp.Helper;
@@ -27,8 +24,10 @@ import retrofit2.Response;
 
 public class CreateStationFragment extends Fragment {
 
-    CompositeDisposable disposable = new CompositeDisposable();
-    App app;
+    private CompositeDisposable disposable = new CompositeDisposable();
+    private App app;
+
+    EditText stationLocation;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -44,12 +43,13 @@ public class CreateStationFragment extends Fragment {
         btnCreate.setOnClickListener(this::onButtonSaveStationClick);
         Button btnMap = (Button) view.findViewById(R.id.buttonCheckOnMap);
         btnMap.setOnClickListener(this::onButtonViewMapClick);
+        stationLocation = (EditText) view.findViewById(R.id.editTextLocation);
         return view;
     }
 
     public void onButtonSaveStationClick(View v) {
         String stationName = ((EditText) getView().findViewById(R.id.editTextStationName)).getText().toString();
-        String stationLocation = ((EditText) getView().findViewById(R.id.editTextLocation)).getText().toString();
+        String stationLocation = this.stationLocation.getText().toString();
         String stationDescription = ((EditText) getView().findViewById(R.id.editTextDescription)).getText().toString();
         if (stationName.length() > 1 && stationLocation.length() > 2 && stationDescription.length() > 4) {
             String coordinates[] = stationLocation.split("[, |]");
@@ -58,24 +58,28 @@ public class CreateStationFragment extends Fragment {
                 return;
             }
             try {
-                double posX = Double.parseDouble(coordinates[0]);
-                double posY = Double.parseDouble(coordinates[1]);
+                double lat = Double.parseDouble(coordinates[0]);
+                double lng = Double.parseDouble(coordinates[1]);
                 Station station = new Station();
                 station.setStationName(stationName);
                 station.setDescription(stationDescription);
-                station.setPositionX(posX);
-                station.setPositionY(posY);
+                station.setLatitude(lat);
+                station.setLongitude(lng);
+                if (app.getElchargeService().getUser() != null) {
+                    station.setOwnerID(app.getElchargeService().getUser().getId());
+                }
                 createStation(station);
             } catch (NumberFormatException e) {
                 Helper.messageLogger(App.getAppContext(), Helper.LogType.ERR, "station", e.getMessage());
             }
         } else {
-            Helper.messageLogger(App.getAppContext(), Helper.LogType.NONE, "station","One of fields so short");
+            Helper.messageLogger(App.getAppContext(), Helper.LogType.NONE, "station", "One of fields so short");
         }
     }
 
     // send request to backend: create new station
     public void createStation(Station station) {
+        final CreateStationFragment tmp = this;
         disposable.add(app.getElchargeService().getStationApi().createStation(station)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
@@ -84,10 +88,16 @@ public class CreateStationFragment extends Fragment {
                     public void onSuccess(Response<Station> response) {
                         try {
                             if (response.code() == 201) {
-                                Helper.messageLogger(App.getAppContext(), Helper.LogType.INFO, "station","Created successfully!");
+                                Helper.messageLogger(App.getAppContext(), Helper.LogType.INFO, "station", "Created successfully!");
                                 getFragmentManager().beginTransaction().replace(R.id.container, new MapsFragment()).commit();
                             } else {
-                                Helper.messageLogger(App.getAppContext(), Helper.LogType.INFO, "station", Integer.toString(response.code()));
+                                Helper.messageLogger(App.getAppContext(), Helper.LogType.INFO, "station", response.message());
+                                if (response.code() == 401) {
+//                                    getFragmentManager().beginTransaction().hide(tmp).commit();
+                                    LoginFragment lf = new LoginFragment();
+                                    getFragmentManager().beginTransaction().add(R.id.container, lf).commit();
+                                    getFragmentManager().beginTransaction().show(lf).commit();
+                                }
                             }
 
                         } catch (Exception e) {
@@ -104,6 +114,16 @@ public class CreateStationFragment extends Fragment {
 
 
     public void onButtonViewMapClick(View v) {
-        getFragmentManager().beginTransaction().replace(R.id.container, new MapsCreateStationFragment()).commit();
+        MapsSelectFragment mapsSelectFragment = new MapsSelectFragment();
+        String stationLocation = this.stationLocation.getText().toString();
+        String coordinates[] = stationLocation.split("[, |]");
+        if (coordinates.length == 2) {
+            double posX = Double.parseDouble(coordinates[0]);
+            double posY = Double.parseDouble(coordinates[1]);
+            mapsSelectFragment.addMarker(posX, posY, "ok", true);
+        } else {
+            mapsSelectFragment.addMarker(51.10613247628298, 17.086756893213984, "", true);
+        }
+        getFragmentManager().beginTransaction().add(R.id.container, mapsSelectFragment).commit();
     }
 }

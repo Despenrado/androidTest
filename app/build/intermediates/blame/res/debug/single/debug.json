@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/layout_fragment_maps_create_station.xml.flat",
+        "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/layout/fragment_maps_create_station.xml"
+    },
+    {
         "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
@@ -12,8 +16,16 @@
         "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
+        "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/layout_fragment_edit_station.xml.flat",
+        "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/layout/fragment_edit_station.xml"
+    },
+    {
         "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/drawable_ic_baseline_place_24.xml.flat",
         "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/drawable/ic_baseline_place_24.xml"
+    },
+    {
+        "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/layout_fragment_create_comment.xml.flat",
+        "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/layout/fragment_create_comment.xml"
     },
     {
         "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
@@ -24,6 +36,10 @@
         "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/layout/fragment_settings.xml"
     },
     {
+        "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/drawable_ic_add.xml.flat",
+        "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/drawable/ic_add.xml"
+    },
+    {
         "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
@@ -32,12 +48,12 @@
         "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/raw/config.properties"
     },
     {
-        "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/layout_fragment_login.xml.flat",
-        "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/layout/fragment_login.xml"
+        "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/layout_fragment_search_station.xml.flat",
+        "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/layout/fragment_search_station.xml"
     },
     {
-        "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/layout_fragment_create.xml.flat",
-        "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/layout/fragment_create.xml"
+        "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/layout_fragment_login.xml.flat",
+        "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/layout/fragment_login.xml"
     },
     {
         "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
@@ -48,8 +64,8 @@
         "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/layout_fragment_search.xml.flat",
-        "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/layout/fragment_search.xml"
+        "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/layout_fragment_create_station.xml.flat",
+        "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/layout/fragment_create_station.xml"
     },
     {
         "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/drawable_ic_baseline_check_circle_24.xml.flat",
@@ -62,6 +78,10 @@
     {
         "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/menu_down_menu.xml.flat",
         "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/menu/down_menu.xml"
+    },
+    {
+        "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/drawable_ic_my_location.xml.flat",
+        "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/drawable/ic_my_location.xml"
     },
     {
         "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
@@ -92,8 +112,8 @@
         "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/drawable/ic_baseline_beenhere_24.xml"
     },
     {
-        "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/layout_fragment_maps2.xml.flat",
-        "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/layout/fragment_maps2.xml"
+        "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/layout_fragment_info.xml.flat",
+        "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/layout/fragment_info.xml"
     },
     {
         "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/drawable_ic_search.xml.flat",
@@ -102,6 +122,10 @@
     {
         "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/layout_fragment_maps.xml.flat",
         "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/layout/fragment_maps.xml"
+    },
+    {
+        "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/drawable_ic_edit.xml.flat",
+        "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/drawable/ic_edit.xml"
     },
     {
         "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
@@ -124,15 +148,19 @@
         "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/drawable/toast_drawable.xml"
     },
     {
+        "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/layout_info_view.xml.flat",
+        "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/layout/info_view.xml"
+    },
+    {
         "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/drawable_ic_create.xml.flat",
-        "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/drawable/ic_create.xml"
-    },
-    {
         "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/drawable_ic_baseline_info_24.xml.flat",
         "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/drawable/ic_baseline_info_24.xml"
+    },
+    {
+        "merged": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/build/intermediates/res/merged/debug/drawable_ic_create.xml.flat",
+        "source": "/mnt/Other/Programing/JAVA/AndroidStudio/TestApp/app/src/main/res/drawable/ic_create.xml"
     }
 ]

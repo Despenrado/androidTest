@@ -28,8 +28,8 @@ import okhttp3.ResponseBody;
 
 public class SettingsFragment extends ListFragment {
 
-    CompositeDisposable disposable = new CompositeDisposable();
-    App app;
+    private CompositeDisposable disposable = new CompositeDisposable();
+    private App app;
 
     public SettingsFragment() {
         // Required empty public constructor
@@ -61,7 +61,7 @@ public class SettingsFragment extends ListFragment {
     public void onListItemClick(@NonNull ListView l, @NonNull View v, int position, long id) {
         switch ((String) getListAdapter().getItem(position)) {
             case "sign in":
-                getFragmentManager().beginTransaction().replace(R.id.container, new LoginFragment()).commit();
+                getFragmentManager().beginTransaction().add(R.id.container, new LoginFragment()).commit();
                 break;
             case "log out":
                 logout();
