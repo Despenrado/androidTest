@@ -64,8 +64,8 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        SupportMapFragment mapFragment =
-                (SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.mapView);
+        SupportMapFragment mapFragment = (SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.mapView);
+        app = (App) getActivity().getApplication();
         if (mapFragment != null) {
             mapFragment.getMapAsync(this::onMapReady);
         }
@@ -75,14 +75,13 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback {
         btnInfo.setOnClickListener(this::onButtonInfoClick);
         FloatingActionButton btnMyLocation = (FloatingActionButton) view.findViewById(R.id.floatingActionButtonMyLocation);
         btnMyLocation.setOnClickListener(this::onButtonMyLocationClick);
-        app = (App) getActivity().getApplication();
     }
 
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
-        getPermissions();
         this.googleMap = setUpMarkers(googleMap);
+        getPermissions();
     }
 
     private GoogleMap setUpMarkers(GoogleMap googleMap) {
@@ -159,10 +158,10 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback {
 
     private void getPermissions() {
         client = LocationServices.getFusedLocationProviderClient(App.getAppContext());
-        // check permission for location
         if (ActivityCompat.checkSelfPermission(App.getAppContext(), Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED &&
                 ContextCompat.checkSelfPermission(App.getAppContext(), Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(getActivity(), new String[]{Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.ACCESS_FINE_LOCATION}, 1);
+            getPermissions();
         } else {
             getCurrentLocation();
         }

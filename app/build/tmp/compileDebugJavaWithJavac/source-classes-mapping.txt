@@ -15,10 +15,9 @@ com/example/testapp/fragments/CommentsAdapter.java
 com/example/testapp/fragments/SettingsFragment.java
  com.example.testapp.fragments.SettingsFragment
  com.example.testapp.fragments.SettingsFragment$1
-com/example/testapp/fragments/MapsFragment.java
- com.example.testapp.fragments.MapsFragment
- com.example.testapp.fragments.MapsFragment$1
- com.example.testapp.fragments.MapsFragment$2
+com/example/testapp/fragments/MapsSelectFragment.java
+ com.example.testapp.fragments.MapsSelectFragment
+ com.example.testapp.fragments.MapsSelectFragment$1
 com/example/testapp/fragments/InfoFragment.java
  com.example.testapp.fragments.InfoFragment
  com.example.testapp.fragments.InfoFragment$1
@@ -56,9 +55,6 @@ com/example/testapp/api/api/UserApi.java
  com.example.testapp.api.api.UserApi
 com/example/testapp/api/models/User.java
  com.example.testapp.api.models.User
-com/example/testapp/fragments/CreateStationFragment.java
- com.example.testapp.fragments.CreateStationFragment
- com.example.testapp.fragments.CreateStationFragment$1
 com/example/testapp/activities/MainActivity.java
  com.example.testapp.activities.MainActivity
  com.example.testapp.activities.MainActivity$1
@@ -67,6 +63,10 @@ com/example/testapp/fragments/SearchStationFragment.java
  com.example.testapp.fragments.SearchStationFragment$1
  com.example.testapp.fragments.SearchStationFragment$2
  com.example.testapp.fragments.SearchStationFragment$StationDisposableSingleObserver
-com/example/testapp/fragments/MapsSelectFragment.java
- com.example.testapp.fragments.MapsSelectFragment
- com.example.testapp.fragments.MapsSelectFragment$1
+com/example/testapp/fragments/MapsFragment.java
+ com.example.testapp.fragments.MapsFragment
+ com.example.testapp.fragments.MapsFragment$1
+ com.example.testapp.fragments.MapsFragment$2
+com/example/testapp/fragments/CreateStationFragment.java
+ com.example.testapp.fragments.CreateStationFragment
+ com.example.testapp.fragments.CreateStationFragment$1
